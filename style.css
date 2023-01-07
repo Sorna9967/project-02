@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(194, 223, 249) !important;
+}
+/* header design Start */
+.Main-header{
+    background-color: #FFFBF0;
+}
+.navbar-nav{
+    margin-left: 25rem;
+}
+.header-name{
+    color: #fabe4c;
+}
+.header-second{
+    color:#363958 ;
+}
+.header-img{
+    margin-right: 600px;
+}
+.card{
+    width: 350px;
+    height: 500px;
+}
+.card img{
+    height: 250px;
+    width: 350px;
+    margin-top: 7px;
+}
+.btn-bg-custom{
+    background-color: #a4bc46 !important;
+    font-size: 17px !important;
+    padding: 5px 8px 5px 8px!important;
+}
+
+@media screen and (max-width:600px) {
+    .header-p{
+        width: 70% !important;
+    }
+}
+/* Header design End */
+/* main design Start */
+.design-h{
+    color: #363958;
+    margin-bottom: 40px;
+}
+.design-h2{
+    color: #fabe4c;
+}
+.second-design-h{
+    color: #363958;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:600px){
+   .card{
+    margin: 0 !important;
+   }
+   .design-h{
+    margin-left: 100px;
+   }
+   .second-design-h{
+    margin-left: 100px;   
+   }
+}
+
+/* Third main section Start */
+.Third-main-section{
+    margin-top: 100px;
+}
+.right-side img{
+    height: 330px;
+    width: 550px;
+    margin-left: 200px;
+    margin-top: 40px !important;
+}
+@media screen and (max-width:600px) {
+   .third section{
+    flex-direction: column-reverse;
+   }
+   .right-side img{
+    margin-left: 30px;
+    height: 200px;
+    width: 350px;
+   }
+   .first-section{
+    margin-left: 20px;
+   }
+   .Second-section{
+    margin-left: 20px;
+   }
+   .Third-section{
+    margin-left: 20px;
+   }
+
+
+}
+ /* Third main section End  */
+/* main design End */
